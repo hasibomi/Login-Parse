@@ -2,10 +2,16 @@
 <html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width", initial-scale="1">
-	<title>Login using PARSE</title>
+	<title>Register | Login using PARSE</title>
+
+	<!-- Stylesheets Foundation -->
 	<link rel="stylesheet" href="assets/css/foundation.min.css">
 	<link rel="stylesheet" href="assets/css/normalize.css">
+
+	<!-- Stylesheets Custom -->
 	<link rel="stylesheet" href="assets/css/custom.css">
+
+	<!-- Script Foundation -->
 	<script src="assets/js/vendor/modernizr.js"></script>
 </head>
 <body>
@@ -24,73 +30,42 @@
 			}
 			?>
 			<?php
-			if ( isset($_GET['success']) && $_GET['success'] == 'register_success' )
+			if ( isset($_GET['register_error']) )
 			{
 				?>
-
-				<div class="alert-box success radius" data-alert>
-					Registration successfull. Please login using login form below.
-					<a href="#" class="close">&times;</a>
-				</div>
-
-				<?php
-			}
-			?>
-			<?php
-			if ( isset($_GET['auth_failed']) )
-			{
-				?>
-
-				<div class="alert-box warning radius" data-alert>
-					You are not loged in!! Please login using login form below.
-					<a href="#" class="close">&times;</a>
-				</div>
-
-				<?php
-			}
-			?>
-			<?php
-			if ( isset($_GET['credential_error']) )
-			{
-				?>
-
 				<div class="alert-box danger radius" data-alert>
-					Wrong Email/Password.
-					<a href="#" class="close">&times;</a>
+					<?php echo $_GET['register_error']; ?>
+					<a href="javascript:;" class="close">&times;</a>
 				</div>
-
 				<?php
 			}
 			?>
-			<form action="action/login.php" method="post">
-				<fieldset>
-					<legend>Login Form</legend>
-					<label>
-						Email
+			<fieldset>
+				<legend>Register an account</legend>
+				<form action="action/register.php" method="post">
+					<label>Email
 						<input type="email" name="email" id="">
 					</label>
 					<label>
 						Password
 						<input type="password" name="password" id="">
 					</label>
-					<input type="submit" value="Login" class="button">
-					<p>
-						<i>or</i>
-					</p>
-					<p>
-						<i>
-							<a href="register.php">create an account</a>
-						</i>
-					</p>
-				</fieldset>
-			</form>
+					<label>
+						Confirm Password
+						<input type="password" name="confirm_password" id="">
+					</label>
+					<input type="submit" value="Register" class="button">
+				</form>
+				<p>
+					<em>Or </em> <a href="index.php">Login to an existing account</a>
+				</p>
+			</fieldset>
 		</div>
 	</div>
 
+	<!-- Script -->
 	<script src="assets/js/vendor/jquery.js"></script>
 	<script src="assets/js/foundation.min.js"></script>
-	<script>
-	$(document).foundation();
-	</script>
+	<script>$(document).foundation();</script>
 </body>
 </html>
