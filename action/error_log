@@ -1,0 +1,366 @@
+[04-Nov-2014 09:16:21 UTC] PHP Fatal error:  Class 'ParseClient' not found in /home/hasibomi/public_html/SampleLoginParse/action/register.php on line 13
+[04-Nov-2014 09:19:30 UTC] PHP Fatal error:  Class 'ParseClient' not found in /home/hasibomi/public_html/SampleLoginParse/action/register.php on line 13
+[04-Nov-2014 09:21:15 UTC] PHP Fatal error:  Class 'ParseClient' not found in /home/hasibomi/public_html/SampleLoginParse/action/register.php on line 13
+[04-Nov-2014 09:26:41 UTC] PHP Fatal error:  Class 'ParseClient' not found in /home/hasibomi/public_html/SampleLoginParse/action/register.php on line 13
+[04-Nov-2014 09:33:27 UTC] PHP Fatal error:  Class 'ParseClient' not found in /home/hasibomi/public_html/SampleLoginParse/action/register.php on line 13
+[04-Nov-2014 09:34:09 UTC] PHP Fatal error:  Class 'ParseClient' not found in /home/hasibomi/public_html/SampleLoginParse/action/register.php on line 13
+[04-Nov-2014 10:03:06 UTC] PHP Fatal error:  Class 'ParseUser' not found in /home/hasibomi/public_html/SampleLoginParse/action/register.php on line 22
+[04-Nov-2014 10:03:43 UTC] PHP Fatal error:  Call to a member function signUp() on a non-object in /home/hasibomi/public_html/SampleLoginParse/action/register.php on line 29
+[04-Nov-2014 10:03:53 UTC] PHP Fatal error:  Call to a member function signUp() on a non-object in /home/hasibomi/public_html/SampleLoginParse/action/register.php on line 29
+[04-Nov-2014 10:04:52 UTC] PHP Fatal error:  Call to a member function signUp() on a non-object in /home/hasibomi/public_html/SampleLoginParse/action/register.php on line 29
+[04-Nov-2014 10:30:13 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:32:32 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 3
+[04-Nov-2014 10:32:32 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 3
+[04-Nov-2014 10:32:32 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 3
+[04-Nov-2014 10:33:13 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 3
+[04-Nov-2014 10:33:13 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 3
+[04-Nov-2014 10:33:13 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 3
+[04-Nov-2014 10:33:29 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 3
+[04-Nov-2014 10:33:29 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 3
+[04-Nov-2014 10:33:29 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 3
+[04-Nov-2014 10:34:51 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 3
+[04-Nov-2014 10:34:51 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 3
+[04-Nov-2014 10:34:51 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 3
+[04-Nov-2014 10:35:16 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot log in user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:129
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/login.php(19): Parse\ParseUser::logIn('', 'd41d8cd98f00b20...')
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 129
+[04-Nov-2014 10:36:42 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot log in user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:129
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/login.php(19): Parse\ParseUser::logIn('', 'd41d8cd98f00b20...')
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 129
+[04-Nov-2014 10:36:53 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:37:49 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:37:58 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'username hasibomi@hasibomi.com already taken' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseObject.php(919): Parse\ParseClient::_request('POST', '/1/classes/_Use...', NULL, '{"username":"ha...', false)
+#1 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseObject.php(830): Parse\ParseObject::deepSave(Object(Parse\ParseUser), false)
+#2 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(112): Parse\ParseObject->save()
+#3 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#4 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 10:38:36 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:38:49 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:39:29 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:41:54 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:42:18 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:42:36 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:42:38 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:42:39 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:42:40 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:42:42 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:42:53 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:42:58 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:43:15 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:43:50 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:44:02 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:44:22 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:44:24 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:44:30 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:44:52 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:46:18 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:46:29 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:47:17 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:47:29 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:47:52 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(24): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:49:40 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(28): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:50:24 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(27): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:50:40 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(26): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:51:15 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(26): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:51:40 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(27): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:51:44 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(27): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:52:07 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(27): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:52:29 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(27): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:53:10 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(27): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:53:18 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(27): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:53:35 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(27): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:56:30 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(26): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:57:13 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(19): Parse\ParseUser::logIn('admin@nexusitzo...', 'e10adc3949ba59a...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 10:57:18 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot log in user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:129
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/login.php(19): Parse\ParseUser::logIn('', 'd41d8cd98f00b20...')
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 129
+[04-Nov-2014 10:58:16 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot log in user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:129
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('', 'd41d8cd98f00b20...')
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 129
+[04-Nov-2014 10:58:34 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot log in user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:129
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('', 'd41d8cd98f00b20...')
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 129
+[04-Nov-2014 10:58:39 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot sign up user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:100
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/register.php(26): Parse\ParseUser->signUp()
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 100
+[04-Nov-2014 10:59:08 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot log in user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:129
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('', 'd41d8cd98f00b20...')
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 129
+[04-Nov-2014 11:00:17 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 2
+[04-Nov-2014 11:01:37 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/hasibomi/public_html/SampleLoginParse/action/login.php on line 2
+[04-Nov-2014 11:02:10 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot log in user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:129
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn(NULL, 'd41d8cd98f00b20...')
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 129
+[04-Nov-2014 11:02:16 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('admin@nexusitzo...', 'd41d8cd98f00b20...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 11:02:24 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('admin@nexusitzo...', 'd41d8cd98f00b20...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 11:08:05 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('hrahmanomi@gmai...', 'e38ae3b8e273547...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 11:10:11 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('hrahmanomi@gmai...', 'acc99f904f0eafa...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 11:13:21 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('hrahmanomi@gmai...', '16a3825e956bd6e...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 11:14:17 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('hrahmanomi@gmai...', '579d9ec9d0c3d68...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 11:23:58 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('hrahmanomi@gmai...', 'bfda7bb17642134...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 11:26:12 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot log in user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:129
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('', 'd41d8cd98f00b20...')
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 129
+[04-Nov-2014 11:27:35 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('hrahmanomi@gmai...', '6978915ee7dbc5a...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 11:29:45 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('hrahmanomi@gmai...', '579d9ec9d0c3d68...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 11:31:11 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(19): Parse\ParseUser::logIn('hrahmanomi@gmai...', '7bc1dde2d22c12a...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 11:31:35 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(19): Parse\ParseUser::logIn('hrahmanomi@gmai...', '7bc1dde2d22c12a...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 11:52:22 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('hrahmanomi@gmai...', '68b7b5474c9af11...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[04-Nov-2014 12:11:11 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot log in user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:129
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn(NULL, 'd41d8cd98f00b20...')
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 129
+[04-Nov-2014 12:12:18 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'invalid login parameters' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php:259
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php(137): Parse\ParseClient::_request('GET', '/1/login', '', Array)
+#1 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('hrahmanomi@gmai...', '579d9ec9d0c3d68...')
+#2 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseClient.php on line 259
+[05-Nov-2014 14:12:32 UTC] PHP Fatal error:  Uncaught exception 'Parse\ParseException' with message 'Cannot log in user with an empty name' in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php:129
+Stack trace:
+#0 /home/hasibomi/public_html/SampleLoginParse/action/login.php(21): Parse\ParseUser::logIn('', 'd41d8cd98f00b20...')
+#1 {main}
+  thrown in /home/hasibomi/public_html/SampleLoginParse/vendor/parse/php-sdk/src/Parse/ParseUser.php on line 129
